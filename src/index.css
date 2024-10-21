@@ -1,0 +1,41 @@
+/* global.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Set a universal font family */
+body {
+  font-family: Arial, sans-serif; /* Use a sans-serif font for readability */
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Style links globally */
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Bootstrap blue for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add a simple transition for links */
+a {
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add a consistent container style */
+.container {
+  padding: 20px; /* Padding for container */
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: auto; /* Center the container */
+}

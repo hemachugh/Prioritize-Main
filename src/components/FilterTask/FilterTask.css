@@ -1,0 +1,27 @@
+/* FilterTask.css */
+
+.filter-task-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  margin: 20px 0; /* Space around the container */
+}
+
+.filter-task-container select {
+  padding: 10px; /* Padding for dropdown */
+  margin-left: 10px; /* Space between dropdowns */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  color: #333; /* Text color */
+  transition: border-color 0.3s; /* Transition effects */
+}
+
+.filter-task-container select:hover {
+  border-color: #28a745; /* Change border color on hover */
+}
+
+.filter-task-container select:focus {
+  outline: none; /* Remove default outline */
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional shadow effect */
+}

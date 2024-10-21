@@ -1,0 +1,13 @@
+.edit-task {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.edit-task input,
+.edit-task select {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
